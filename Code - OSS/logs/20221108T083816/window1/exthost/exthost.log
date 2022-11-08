@@ -1,0 +1,48 @@
+2022-11-08 08:38:20.778 [info] Extension host with pid 3571 started
+2022-11-08 08:38:20.891 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-11-08 08:38:20.911 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-11-08 08:38:20.912 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-11-08 08:38:21.164 [info] Eager extensions activated
+2022-11-08 08:38:21.244 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-11-08 08:38:21.245 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-11-08 08:38:21.245 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-11-08 08:38:40.862 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-11-08 08:38:40.863 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-11-08 08:38:40.863 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-11-08 08:38:57.605 [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer, startup: false, activationEvent: '*'
+2022-11-08 08:40:02.189 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2022-11-08 08:40:26.404 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onWalkthrough:jupyterWelcome'
+2022-11-08 08:40:26.405 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onWalkthrough:pythonWelcome'
+2022-11-08 08:40:28.953 [error] Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:88:44793)
+	at d.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:54599)
+	at new S (/home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:207218)
+	at t.resolveInstance (/home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297910)
+	at /home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at /home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298766
+	at Array.map (<anonymous>)
+	at /home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298738
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297684)
+	at /home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at t.resolve (/home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1300111)
+	at /home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283524
+	at e._get (/home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283290)
+	at e.get (/home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1281933)
+	at a.get (/home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:50621)
+	at /home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:4923
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-08 08:40:29.419 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:88:44793)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:36138)
+	at w.activate (/home/ememendozar/.vscode-oss/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:762542)
+	at /home/ememendozar/.vscode-oss/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2251
+	at Array.map (<anonymous>)
+	at f.activateWorkspace (/home/ememendozar/.vscode-oss/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2241)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-08 08:40:53.219 [info] Extension host terminating: received terminate message from renderer
+2022-11-08 08:40:53.260 [info] Extension host with pid 3571 exiting with code 0

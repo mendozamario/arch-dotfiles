@@ -1,0 +1,55 @@
+2022-11-08 08:42:17.582 [critical] Extension 'ms-python.python CANNOT USE these API proposals 'quickPickSortByLabel, testObserver'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2022-11-08 08:42:17.582 [critical] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2022-11-08 08:42:17.583 [critical] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2022-11-08 08:42:17.767 [error] [ms-toolsai.jupyter]: notebook/kernelSource es un identificador de menú propuesto. Requiere "package.json#enabledApiProposals: ["notebookKernelSource"]' y solo está disponible cuando se queda sin desarrollo o con el siguiente modificador de línea de comandos: --enable-proposed-api ms-toolsai.jupyter
+2022-11-08 08:42:19.551 [error] RequestService#request (browser) - error https://open-vsx.org/vscode/gallery/extensionquery {"name":"Offline"}
+2022-11-08 08:42:20.480 [info] [perf] Render performance baseline is 61ms
+2022-11-08 08:42:21.629 [error] RequestService#request (browser) - error https://open-vsx.org/vscode/gallery/extensionquery {"name":"Offline"}
+2022-11-08 08:42:21.630 [error] Offline: Offline
+    at A (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:70:9475)
+    at I.request (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:638:24361)
+    at G.queryRawGalleryExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:227056)
+    at async G.queryGalleryExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:224353)
+    at async oe (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:223323)
+    at async G.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:223564)
+    at async Mo.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3222:15130)
+    at async ue.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3218:18621)
+    at async ue.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3218:8252)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3218:6193
+2022-11-08 08:42:23.029 [error] RequestService#request (browser) - error https://open-vsx.org/vscode/gallery/extensionquery {"name":"Offline"}
+2022-11-08 08:42:23.030 [error] Offline: Offline
+    at A (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:70:9475)
+    at I.request (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:638:24361)
+    at G.queryRawGalleryExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:227056)
+    at async G.queryGalleryExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:224353)
+    at async oe (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:223323)
+    at async G.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:223564)
+    at async Mo.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3222:15130)
+    at async ue.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3218:18621)
+    at async ue.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3218:8252)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3218:6193
+2022-11-08 08:42:26.655 [error] RequestService#request (browser) - error https://open-vsx.org/vscode/gallery/extensionquery {"name":"Offline"}
+2022-11-08 08:42:26.656 [error] Offline: Offline
+    at A (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:70:9475)
+    at I.request (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:638:24361)
+    at G.queryRawGalleryExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:227056)
+    at async G.queryGalleryExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:224353)
+    at async oe (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:223323)
+    at async G.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:223564)
+    at async Mo.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3222:15130)
+    at async ue.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3218:18621)
+    at async ue.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3218:8252)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3218:6193
+2022-11-08 08:42:30.266 [error] RequestService#request (browser) - error https://open-vsx.org/vscode/gallery/extensionquery {"name":"Offline"}
+2022-11-08 08:42:30.267 [error] Offline: Offline
+    at A (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:70:9475)
+    at I.request (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:638:24361)
+    at G.queryRawGalleryExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:227056)
+    at async G.queryGalleryExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:224353)
+    at async oe (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:223323)
+    at async G.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:816:223564)
+    at async Mo.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3222:15130)
+    at async ue.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3218:18621)
+    at async ue.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3218:8252)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3218:6193
+2022-11-08 08:54:42.396 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: application.experimental.rendererProfiling

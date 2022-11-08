@@ -1,0 +1,56 @@
+2022-11-08 08:38:20.889 [info] Starting worker process with pid 3610 (type: fileWatcher, window: 1).
+2022-11-08 08:38:31.842 [info] Getting Manifest... teabyii.ayu
+2022-11-08 08:38:32.112 [info] Installing extension: teabyii.ayu
+2022-11-08 08:38:35.382 [info] Extracted extension to /home/ememendozar/.vscode-oss/extensions/.4bcf3136-8c22-4956-abf2-7dc45fec186f: teabyii.ayu
+2022-11-08 08:38:35.395 [info] Renamed to /home/ememendozar/.vscode-oss/extensions/teabyii.ayu-1.0.3-universal
+2022-11-08 08:38:35.398 [info] Extracting completed. teabyii.ayu
+2022-11-08 08:38:35.400 [info] Extension installed successfully: teabyii.ayu
+2022-11-08 08:38:54.064 [info] Getting Manifest... coenraads.bracket-pair-colorizer
+2022-11-08 08:38:54.228 [info] Installing extension: coenraads.bracket-pair-colorizer
+2022-11-08 08:38:57.389 [info] Extracted extension to /home/ememendozar/.vscode-oss/extensions/.bfc732dc-32d3-41eb-9885-11064683277b: coenraads.bracket-pair-colorizer
+2022-11-08 08:38:57.403 [info] Renamed to /home/ememendozar/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-1.0.62-universal
+2022-11-08 08:38:57.406 [info] Extracting completed. coenraads.bracket-pair-colorizer
+2022-11-08 08:38:57.408 [info] Extension installed successfully: coenraads.bracket-pair-colorizer
+2022-11-08 08:39:05.863 [info] Getting Manifest... ms-python.python
+2022-11-08 08:39:06.056 [info] Installing extension: ms-python.python
+2022-11-08 08:39:06.490 [info] Getting Manifest... ms-toolsai.jupyter
+2022-11-08 08:39:07.702 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2022-11-08 08:39:08.570 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2022-11-08 08:39:09.523 [info] Installing extension: ms-toolsai.jupyter ms-python.python
+2022-11-08 08:39:09.523 [info] Installing extension: ms-toolsai.jupyter-renderers ms-python.python
+2022-11-08 08:39:09.523 [info] Installing extension: ms-toolsai.jupyter-keymap ms-python.python
+2022-11-08 08:39:11.496 [info] Extracted extension to /home/ememendozar/.vscode-oss/extensions/.3fa2a77e-f25d-4edb-9284-99dab9ee9bab: ms-toolsai.jupyter-keymap
+2022-11-08 08:39:11.503 [info] Renamed to /home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.0.0-universal
+2022-11-08 08:39:11.505 [info] Extracting completed. ms-toolsai.jupyter-keymap
+2022-11-08 08:39:22.926 [info] Getting Manifest... ms-ceintl.vscode-language-pack-es
+2022-11-08 08:39:25.124 [info] Installing extension: ms-ceintl.vscode-language-pack-es
+2022-11-08 08:39:29.755 [info] Extracted extension to /home/ememendozar/.vscode-oss/extensions/.ccf37962-9b30-46e6-b424-8cda6228fc83: ms-ceintl.vscode-language-pack-es
+2022-11-08 08:39:29.768 [info] Renamed to /home/ememendozar/.vscode-oss/extensions/ms-ceintl.vscode-language-pack-es-1.73.0-universal
+2022-11-08 08:39:29.770 [info] Extracting completed. ms-ceintl.vscode-language-pack-es
+2022-11-08 08:39:29.771 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-es
+2022-11-08 08:39:29.886 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-es
+2022-11-08 08:39:35.930 [info] Extracted extension to /home/ememendozar/.vscode-oss/extensions/.b092deaa-0870-4532-85e0-dba876f03a28: ms-toolsai.jupyter-renderers
+2022-11-08 08:39:35.946 [info] Renamed to /home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.11-universal
+2022-11-08 08:39:35.948 [info] Extracting completed. ms-toolsai.jupyter-renderers
+2022-11-08 08:39:50.805 [info] Extracted extension to /home/ememendozar/.vscode-oss/extensions/.9b1309fe-1561-46b5-8b1c-0aa662d95244: ms-toolsai.jupyter
+2022-11-08 08:39:50.822 [info] Renamed to /home/ememendozar/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal
+2022-11-08 08:39:50.845 [info] Extracting completed. ms-toolsai.jupyter
+2022-11-08 08:39:51.667 [info] Getting Manifest... vscode-icons-team.vscode-icons
+2022-11-08 08:39:51.828 [info] Installing extension: vscode-icons-team.vscode-icons
+2022-11-08 08:40:01.668 [info] Extracted extension to /home/ememendozar/.vscode-oss/extensions/.c57f0324-22b7-483c-bd3b-6877fd66f0af: vscode-icons-team.vscode-icons
+2022-11-08 08:40:01.682 [info] Renamed to /home/ememendozar/.vscode-oss/extensions/vscode-icons-team.vscode-icons-12.0.1-universal
+2022-11-08 08:40:01.685 [info] Extracting completed. vscode-icons-team.vscode-icons
+2022-11-08 08:40:01.687 [info] Extension installed successfully: vscode-icons-team.vscode-icons
+2022-11-08 08:40:03.442 [info] Getting Manifest... abusaidm.html-snippets
+2022-11-08 08:40:03.605 [info] Installing extension: abusaidm.html-snippets
+2022-11-08 08:40:06.219 [info] Extracted extension to /home/ememendozar/.vscode-oss/extensions/.d1eb87e2-d8b9-418f-8b87-3bf93af23693: abusaidm.html-snippets
+2022-11-08 08:40:06.227 [info] Renamed to /home/ememendozar/.vscode-oss/extensions/abusaidm.html-snippets-0.2.1-universal
+2022-11-08 08:40:06.230 [info] Extracting completed. abusaidm.html-snippets
+2022-11-08 08:40:06.232 [info] Extension installed successfully: abusaidm.html-snippets
+2022-11-08 08:40:25.706 [info] Extracted extension to /home/ememendozar/.vscode-oss/extensions/.baade7b1-8653-4f74-b9fc-8386daef83b1: ms-python.python
+2022-11-08 08:40:25.724 [info] Renamed to /home/ememendozar/.vscode-oss/extensions/ms-python.python-2022.16.1-universal
+2022-11-08 08:40:25.731 [info] Extracting completed. ms-python.python
+2022-11-08 08:40:25.736 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2022-11-08 08:40:25.736 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2022-11-08 08:40:25.737 [info] Extension installed successfully: ms-toolsai.jupyter
+2022-11-08 08:40:25.737 [info] Extension installed successfully: ms-python.python
